@@ -1,0 +1,10 @@
+C:\Users\Md Zihan\source\repos\CRUDProject\bin\Debug\CRUDProject.exe.config
+C:\Users\Md Zihan\source\repos\CRUDProject\bin\Debug\CRUDProject.exe
+C:\Users\Md Zihan\source\repos\CRUDProject\bin\Debug\CRUDProject.pdb
+C:\Users\Md Zihan\source\repos\CRUDProject\obj\Debug\CRUDProject.csproj.AssemblyReference.cache
+C:\Users\Md Zihan\source\repos\CRUDProject\obj\Debug\CRUDProject.Form1.resources
+C:\Users\Md Zihan\source\repos\CRUDProject\obj\Debug\CRUDProject.Properties.Resources.resources
+C:\Users\Md Zihan\source\repos\CRUDProject\obj\Debug\CRUDProject.csproj.GenerateResource.cache
+C:\Users\Md Zihan\source\repos\CRUDProject\obj\Debug\CRUDProject.csproj.CoreCompileInputs.cache
+C:\Users\Md Zihan\source\repos\CRUDProject\obj\Debug\CRUDProject.exe
+C:\Users\Md Zihan\source\repos\CRUDProject\obj\Debug\CRUDProject.pdb
