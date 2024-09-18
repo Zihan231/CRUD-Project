@@ -33,8 +33,8 @@ Ensure you have the following installed on your system:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/Zihan231/CRUD-Application.git
-   cd CRUD-Application
+   git clone https://github.com/Zihan231/CRUD-Project.git
+   cd CRUD-Project
    ```
 2. **Open the Solution:**
 Open the .sln file in Visual Studio or your preferred C# development environment.
