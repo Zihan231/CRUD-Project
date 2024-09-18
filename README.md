@@ -29,7 +29,7 @@ Ensure you have the following installed on your system:
 - [Visual Studio](https://visualstudio.microsoft.com/) or another C# IDE
 
 
-### Steps to Set Up
+### Steps to Set Up The Project File
 
 1. **Clone the Repository:**
    ```bash
@@ -51,6 +51,27 @@ Build the solution to ensure that everything is set up correctly. In Visual Stud
 5. **Run the Application:**
 Start the application by pressing F5 in Visual Studio or running the appropriate executable from the command line.
 
+### Steps to Set Up The Database In SSMS
+
+1. **Download Sql Sript**
+   Find the .Sql file from this repository and download that.
+2. **Set up Sql Scrip in SSMS**
+   Open SSMS and Select Write new Query. Then Select Open New File. Then Select the Downloaded File from your Computer.
+3. **Query Execution**
+   Select the Execution Button on top left of the Window. Now the database should be created
+
+### Connecting Database To The Project Code
+
+1. **Open the Project**
+   Open the Project file and then locate the .Sln file and double click on that file the and that should be open.
+
+2. **Changing the Connection String**
+   Find the SqlConnection String and replace the existing Connection string with your connection String.
+
+3. **Save the edited code and run**
+
+##Now the Project Is Ready To Run##
+   
     
 ## Authors
 
