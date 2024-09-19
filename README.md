@@ -1,35 +1,58 @@
-# C# CRUD Project
+# CRUD Application in C# (Windows Forms)
 
-This project is a simple **CRUD (Create, Read, Update, Delete)** application built using **C#**, **ASP.NET Core**, and **Entity Framework Core**. It demonstrates basic database operations via a web interface.
+This is a simple CRUD (Create, Read, Update, Delete) application built using C# and Windows Forms. The application demonstrates how to perform basic database operations with a user-friendly interface.
 
 ## Features
 
-- **Create**: Add new records.
-- **Read**: View and list all records.
-- **Update**: Edit existing records.
+- **Create**: Add new records to the database.
+- **Read**: View records in a list or grid format.
+- **Update**: Modify existing records.
 - **Delete**: Remove records from the database.
-- **Database**: Uses Microsoft Sql Server.
+- **Search**: Find specific records based on various criteria.
 
 ## Technologies Used
 
-- **C#**
-- **SQL Server**
+- **Programming Language**: C#
+- **User Interface**: Windows Forms (WinForms)
+- **Database**: Microsoft SQL Server
+- **IDE**: Visual Studio 
 
+## Project Workflow
 
-## Installation
+### 1. User Interface (Windows Forms)
+
+- **Main Form**: Contains buttons for `Create`, `Edit`, `Read`, `Update`, `Delete`, and `Refresh` operations, along with a `DataGridView` to display records.
+
+- **Add/Edit Form**: A separate form is used for entering or modifying record details. This form pops up when a user chooses to add a new record or edit an existing one.
+
+- **Message Boxes**: Used to confirm critical actions such as record creation, modification, and deletion. For example:
+  - Confirming whether the user wants to delete a record.
+  - Displaying success messages when operations are completed.
+
+### 2. Database Operations
+
+- **Create**: Allows users to add a new record by opening the `Add/Edit` form, filling in the details, and submitting it to the database.
+
+- **Read**: Fetches and displays all records from the database in the `DataGridView` on the main form, typically loaded when the application starts or when the "Refresh" button is clicked.
+
+- **Update**: Enables the user to modify an existing record. The user selects a record in the `DataGridView`, edits the details in the `Add/Edit` form, and submits the changes to update the record in the database.
+
+- **Delete**: Provides the option to remove a record by selecting it from the `DataGridView`, confirming the action in a message box, and deleting the record from the database.
 
 ### Prerequisites
 
 Ensure you have the following installed on your system:
-- [.NET Core SDK](https://dotnet.microsoft.com/download)
 - [SQL Server](https://www.microsoft.com/en-us/sql-server) or an alternative (SQLite, MySQL)
 - [Visual Studio](https://visualstudio.microsoft.com/) or another C# IDE
 
+## Installation
 
 ### Steps to Set Up The Project File
 
 1. **Clone the Repository:**
-   
+    ```bash
+   git clone https://github.com/Zihan231/CRUD-Project.git
+    ```
 2. **Open the Solution:**
 Open the .sln file in Visual Studio or your preferred C# development environment.
 
